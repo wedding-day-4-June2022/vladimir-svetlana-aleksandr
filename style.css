@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alice', serif;
+    box-sizing: border-box;
+    font-size: 24px
+}
+body {
+    background-image: url('./img/fon1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: 'Cormorant Infant', serif;
+
+}
+h3,h4,h2 {
+    text-align: center;
+   padding-bottom: 30px;
+}
+/* //// */
+header {
+    width: 100%;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+    overflow: hidden;
+}
+.names {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+.names img {
+    width: 700px;
+}
+
+h1{
+    width: 50%;
+    text-align: center;
+    color: cornsilk;
+    text-shadow: 1px 2px #575757;
+    font-size: 50px;
+    opacity: 0.7!important;
+}
+/* /////////// */
+.whois {
+    /* background-image: url('./img/greenRight.jpg'); */
+    background-size: cover;
+    position: relative;
+    margin-top: -4px;
+    /* height: 800px; */
+    /* box-shadow: 5px 5px 5px #94d368; */
+}
+.mt {
+    margin: 40px 0px 8px 0px;
+}
+.tac {
+    text-align: center;
+}
+.logoTwo {
+    width: 220px;
+}
+.logoTwo_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.treeWhoIs img {
+    position: absolute;
+    right: 169px;
+    top: 140px;
+    width: 450px;
+    transform: rotate( 30deg);
+}
+.hrMargin {
+    margin-top: -55px!important;
+}
+.rightFonTop {
+    width: 500px;
+    position: absolute;
+    top: -42px;
+    z-index: -2;
+}
+.leftFonTop {
+    width: 500px;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    z-index: -2;
+}
+.leftBottomFon {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    transform: rotate(180deg);
+}
+.rightBottomFon {
+    width: 500px;
+    position: absolute;
+    transform: rotate(180deg);
+    right: 0;
+}
+.date {
+    padding: 30px 0px 0px 0px;
+}
+.date img {
+    width: 610px;
+    margin-top: -80px;
+}
+.hr {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.hr img {
+    width: 150px;
+}
+.parentsBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 33px;
+    margin: 0 auto;
+    width: 64%;
+    line-height: 30px;
+}
+.namesWho {
+    font-size: 40px;
+    font-style: 'Alice';
+    line-height: 40px;
+    width: 100%;
+}
+/* ////// */
+.programm {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 1000px;
+    width: 100%;
+    line-height: 25px;
+}
+.times {
+    width: 800px;
+    height: 1000px;
+}
+.tree2 {
+    width: 356px;
+    position: absolute;
+    left: 294px;
+    top: -93px;
+    z-index: 10;
+}
+.tree3 {
+    transform: scale(-1, 1);
+    width: 356px;
+    position: absolute;
+    /* left: 294px; */
+    /* top: -93px; */
+    z-index: 10;
+    bottom: 4px;
+    right: 319px;
+}
+.programm_fon {
+    padding: 20px;
+    background: white;
+    width: 576px;
+    height: 641px;
+}
+.programm_fon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 466px;
+    width: 600px;
+    height: 665px;
+    border: 3px solid #e0e086;
+}
+.programm_fon::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 430px;
+    width: 609px;
+    height: 666px;
+    border: 3px solid #e0e086;
+}
+.block_program_item {
+display: flex;
+}
+.block_program_item div img {
+    width: 58px;
+    margin-right: 20px;
+    padding-top: 11px;
+}
+
+.afterTimer {
+    margin: -7px 0px 60px 0px;
+}
+.programm_item {
+    display: flex;
+    flex-direction: column;
+    line-height: 38px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.programm_item div {
+    margin-left: 20px;
+}
+/* //// */
+.howGetTo {
+    padding-top: 60px;
+}
+.place {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+
+    background-image: url('./img/mapFon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+.place_blockText {
+    width: 40%;
+}
+.place_map {
+    width: 55%;
+}
+.afterMap {
+    margin: 70px 0px 60px 0px;
+}
+.place_blockText div {
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40%;
+    text-align: center;
+}
+/* ///// */
+.organizator {
+    height: 200px;
+    text-align: center;
+}
+
+/* ////// */
+
+.hash {
+    text-align: center;
+    height: 200px;
+}
+.afterPhone {
+    margin: -45px 0px 60px 0px;
+}
+.nast9 {
+    font-style: italic;
+}
+.phone {
+    font-size: 28px;
+}
+/* /// */
+.present {
+    display: flex;
+    justify-content: center;
+}
+.h4text {
+    width: 73%;
+    font-style: italic;
+    line-height: 31px;
+}
+.hash-new {
+    margin-top: 60px;
+}
+.hash-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-hash {
+    width: 54%;
+    
+}
+.italic {
+    font-style: italic;
+    position: relative;
+    bottom: -10px;
+}
+.footer {
+    /* position: relative;
+    height: 600px; */
+}
+.end {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.endImg {
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -460px;
+}
+.afterInst {
+    margin: 187px 0px -20px 0px;
+}
+.agry {
+    margin: 90px 0px -50px 0px;
+    text-align: center;
+}
+.happy {
+    margin: 56px 0px -121px 0px;
+}
+
+@media (max-width : 1073px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+    .place_blockText {
+        width: 80%;
+        margin: 0 auto;
+       
+    }
+    .place_blockText div {
+        padding: 12px 0px;
+    }
+    .place_map {
+        width: 80%;
+        margin: 0 auto;
+        height: 300px;
+    }
+}
+
+@media (max-width : 900px) {
+    h3, h4, h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .afterInst {
+        margin: 265px 0px -20px 0px;
+    }
+}
+.expensive {
+    font-weight: 400;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+}
+/* $breakpoint-xl: 1200px;
+$breakpoint-lg: 1024px; 
+$breakpoint-md: 768px; 
+$breakpoint-sm: 576px; 
+$breakpoint-xs: 390px;
+$breakpoint-mobile: 425px; */
+@media (max-width : 768px) {
+    .times {
+        width: 100%;
+        height: 700px;
+    }
+    .rightFonTop {
+        width: 375px;
+        position: absolute;
+        top: -61px;
+        z-index: -2;
+    }
+    .leftFonTop {
+        width: 350px;
+        position: absolute;
+        top: -63px;
+        right: 0;
+        z-index: -2;
+    }
+    .programm {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 710px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .names {
+        position: absolute;
+        margin: 0 auto;
+        width: inherit;
+        top: -7%;
+        display: flex;
+        justify-content: center;
+    }
+    .afterInst {
+        margin: 318px 0px -20px 0px;
+    }
+    
+}
+
+@media (max-width: 622px){
+    .names img {
+        width: 380px;
+    }
+    .date img {
+        width: 350px;
+        margin-top: -80px;
+    }
+    .afterInst {
+        margin: 378px 0px -20px 0px;
+    }
+
+}
+@media (max-width: 547px){
+    .afterInst {
+        margin: 444px 0px -20px 0px;
+    }
+    .leftBottomFon {
+        width: 350px;
+        position: absolute;
+        left: 0;
+        transform: rotate(180deg);
+    }
+    .rightBottomFon {
+        width: 350px;
+        position: absolute;
+        transform: rotate(180deg);
+        right: 0;
+    }
+    .endImg {
+        width: 178px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -309px;
+    }
+}
+@media (max-width: 472px){
+    .afterInst {
+        margin: 512px 0px -20px 0px;
+    }
+    .afterTimer {
+        margin: -7px 0px 37px 0px;
+    }
+    .times {
+        width: 100%;
+        height: 550px;
+    }
+    .place_blockText div {
+        width: auto;
+    }
+    .names img {
+        width: 305px;
+    }
+    .programm {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 557px;
+        width: 100%;
+        line-height: 25px;
+    }
+    .rightFonTop {
+        width: 279px;
+        position: absolute;
+        top: -61px;
+        z-index: -2;
+    }
+    .leftFonTop {
+        width: 221px;
+        position: absolute;
+        top: -63px;
+        right: 0;
+        z-index: -2;
+    }
+    .afterPhone {
+        margin: 11px 0px 60px 0px;
+    }
+    
+    
+}
+
+@media (max-width : 560px) {
+    .place_blockText {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .place_map {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .afterMap {
+        margin: 60px 0px 50px 0px;
+    }
+    .organizator {
+        height: 224px;
+        text-align: center;
+    }
+    .afterTimer {
+        margin: -7px 0px 50px 0px;
+    }
+}
+@media (max-width : 543px) {
+    .logoTwo {
+        width: 160px;
+    }
+ 
+}
+@media (max-width : 700px) {
+    .names img {
+        width: 500px;
+    }
+}
+@media (max-width : 550px) {
+    .names img {
+        width: 400px;
+    }
+    .main-hash {
+    width: 80%;
+    }
+}
+
+@media (max-width: 450px){
+    .names img {
+        margin-top: 10px;
+        width: 350px;
+    }
+    .main-hash {
+    width: 80%;
+    }
+}
+
+
+@media (max-width : 400px) {
+    .names img {
+        margin-top: 0px;
+        width: 330px;
+    }
+    .leftBottomFon {
+        width: 200px;
+        position: absolute;
+        left: 0;
+        transform: rotate(180deg);
+    }
+    .rightBottomFon {
+        width: 200px;
+        position: absolute;
+        transform: rotate(180deg);
+        right: 0;
+    }
+    .endImg {
+        width: 142px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -190px;
+    }
+    .agry {
+        margin: 90px 0px 88px 0px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Alice-Regular"; 
+    src: url("../Alice-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
